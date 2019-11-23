@@ -9,7 +9,7 @@ def cal_value(gray):
     avarage_value = total / n
     
     result = {
-        "total": matrix.sum(),
+        "total": total,
         "avarage_value": avarage_value,
         "pixel_quantity": n
     }
