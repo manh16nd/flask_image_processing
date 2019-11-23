@@ -1,14 +1,16 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from helpers.file import save_file
 from helpers.resp import send_response, send_error
 from image_processing import parse_img
+import os
 
-app = Flask('IMAGE_PROCESSING')
+template_dir = os.path.join(os.getcwd(), 'views')
+app = Flask('IMAGE_PROCESSING', template_folder=template_dir)
 
 
 @app.route("/")
 def main():
-    return "Welcome!"
+    return render_template("index.html")
 
 
 @app.route('/img', methods=['GET', 'POST'])

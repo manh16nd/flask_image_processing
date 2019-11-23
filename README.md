@@ -13,6 +13,10 @@ python app.py
 
 Server runs on port 5000
 
+## Usage
+
+Go to `http://127.0.0.1:5000` on your browser and upload the image. See result below.
+
 ## API 
 
 ### Get image's grayscale value
