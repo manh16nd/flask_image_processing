@@ -22,7 +22,7 @@ def cal_value(gray):
 
 
 def parse_img(file):
-	print(file)
-	img = cv2.imread(file)
-	gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-	return cal_value(gray)
+    print(file)
+    img = cv2.imread(file)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    return cal_value(gray)
