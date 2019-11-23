@@ -6,11 +6,11 @@ def cal_value(gray):
     matrix = np.matrix(gray)
     total = matrix.sum()
     n = matrix.shape[0] * matrix.shape[1]
-    avarage_value = total / n
+    average_value = total / n
     
     result = {
         "total": total,
-        "avarage_value": avarage_value,
+        "average_value": average_value,
         "pixel_quantity": n
     }
 
