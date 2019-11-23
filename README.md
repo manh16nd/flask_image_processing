@@ -43,7 +43,7 @@ Go to `http://127.0.0.1:5000` on your browser and upload the image. See result b
     "success": true,
     "data": {
         "total": "Sum of all pixel in grayscale",
-        "avarage_value": "The grayscale avarage value",
+        "average_value": "The grayscale average value",
         "pixel_quantity": "Quantity of pixel"
     }
 }
